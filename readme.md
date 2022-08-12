@@ -89,3 +89,38 @@ validation at the database level as well, without using raw SQL?
 20. Say you are coding in a context where it is not possible import
 the desired model class due to circular imports. How would you acquire this
 model class?
+
+21. Other than omitting `prefetch_related` and `select_related`, what are some
+common mistakes developers make that slow down Django applications?
+
+22. You are assigned to monitor a Django application in production; your aim is
+to find possible bottlenecks and optimize overall performance of the
+application. What tools are you going to use? By giving example cases, what type
+of solutions could you implement?
+
+23. What is 'middleware'? Can you name some middleware classes that are provided
+by Django, with their purpose? Could you tell of an example where you needed to
+use a middleware?
+
+24. Clients complain about the slowness of the Django admin site. What could be
+the reasons behind this issue, and how would you improve it?
+
+25. Can you differentiate model methods and model manager methods? In what cases
+using one suits better than the other?
+
+26. One could hook up the `post_save` signal to do processing after the model
+instance is saved, it is also possible to override `save()` model method to do
+the same work. Which method would you use in which case?
+
+27. If you omit `related_name` on a `ForeignKey` field, what does Django set as
+default?
+
+28. A developer converts `ForeignKey` with `unique=True` to `OneToOneField`,
+knowing these two correspond to the same structure in the database. Would this
+conversion break anything in the domain of Django? If so, how?
+
+29. In QuerySets, what is the difference between using one filter with many
+arguments versus chaining multiple filters?
+
+30. What does the phrase “QuerySets are lazy” mean? Give some instances where a
+QuerySet would get evaluated.
