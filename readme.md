@@ -124,3 +124,12 @@ arguments versus chaining multiple filters?
 
 30. What does the phrase “QuerySets are lazy” mean? Give some instances where a
 QuerySet would get evaluated.
+
+31. How would you ensure an email is sent only after an object is created in
+the database, and how would you test this functionality?
+
+32. Do you know how Django development team manages its releases? Which version
+of Django would you use at any given time, and why?
+
+33. What do you think about generic relations? Can you tell few pros and/or
+cons?
