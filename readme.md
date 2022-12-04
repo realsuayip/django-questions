@@ -133,3 +133,30 @@ of Django would you use at any given time, and why?
 
 33. What do you think about generic relations? Can you tell few pros and/or
 cons?
+
+34. Django is often considered to have a monolithic architecture, what does this
+mean?
+
+35. Give an instance from Django APIs where operator overriding is used.
+
+36. What does `F` object do in Django? Give a couple of distinct cases where the
+usage of `F` object would be appropriate. 
+
+37. Explain Cross-site request forgery (CSRF) vulnerability and Django's
+secure implementation against it.
+
+38. Explain BREACH attack. Does Django have any mitigation against it? How
+would such mitigation work?
+
+39. Assume that you are adding a new setting, which should hold some sort of
+secret such as an API key. Security-wise, in what manner would you add that key
+so that it would be more secure i.e., not easily exposed to outside?
+
+40. You are doing a security audit for a Django website, and by checking
+"Not found" page, you have realized that the website has not disabled the
+`DEBUG` mode. To make your point, you want to trigger a 500 error so that all 
+the environment variables would be exposed; in which case you would send the
+exposed variables to the customer in joy. How would you trigger a 500 error
+easily, in this case?
+
+41. What are some things that make apparent that a website uses Django as backend?
