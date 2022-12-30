@@ -160,3 +160,19 @@ exposed variables to the customer in joy. How would you trigger a 500 error
 easily, in this case?
 
 41. What are some things that make apparent that a website uses Django as backend?
+
+42. In the context of database backup, why is the usage of  Django management
+commands`loaddata` and `dumpdata` are not desirable? What would a proper database
+backup setup entail?
+
+43. In summary, how does Django migrations work? Why do we need migrations? Do
+you know what happens in the background? What does Django migrations entail in
+the actual database?
+
+44. How do you scale a Django application?
+
+45. What is WSGI; how about ASGI?
+
+46. Using Django, how would you transfer some data via untrusted environments
+(e.g., email), making sure of the authenticity and integrity of the data while
+receiving it?
