@@ -176,3 +176,15 @@ the actual database?
 46. Using Django, how would you transfer some data via untrusted environments
 (e.g., email), making sure of the authenticity and integrity of the data while
 receiving it?
+
+47. What do you know about system check framework, can you give an example
+of a built-in check? Is it possible to write your own checks?
+
+48. What would you do if you wanted to associate users with sessions?
+
+49. What is a swappable dependency?
+
+50. How does the intermediate table in a many-to-many relationship is
+generated, and how would you add custom fields to that model?
+
+51. What does `CONN_MAX_AGE` setting do?
