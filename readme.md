@@ -188,3 +188,51 @@ of a built-in check? Is it possible to write your own checks?
 generated, and how would you add custom fields to that model?
 
 51. What does `CONN_MAX_AGE` setting do?
+
+52. What does `ATOMIC_REQUESTS` setting do? What might be the pros and cons for
+enabling atomic requests?
+
+53. Sometimes, it is preferable to lock a row in the database during certain
+transactions. Can you give one situation where this would be helpful? And how
+would you do it?
+
+54. How would you upgrade a Postgres deployment to the next major release?
+
+55. How do JWT tokens work? What does the phrase "stateless authentication"
+mean?
+
+56. What type of authentication mechanism does Django use by default? Have you
+ever used alternative authentication methods?
+
+57. During error monitoring, you realize that workers frequently shut down with
+`SystemExit(1)`, what could be the cause?
+
+58. What are the differences between class-based and function-based views? 
+Which style do you use in which context?
+
+59. How would you Dockerize a Django application?
+
+60. What is Redis? What might be some reasons to use Redis? Do you have any
+concrete examples using Redis?
+
+61. Why would one need multiple Celery workers?
+
+62. What is the purpose of Celery beat?
+
+63. In a Django application, the response times slows down during 3 a.m. every
+night, even though the traffic is roughly the same. What could be the cause?
+
+64. How would one monitor Celery tasks?
+
+65. Why, by default, is it not possible to pass a model instance to a Celery
+task? And how would you achieve this behavior?
+
+66. What are some use cases for Celery? What types of Celery tasks did you
+write? Can you justify your use case?
+
+67. Why is it not recommended to serve static files with Django?
+
+68. How would you serve large amounts of JSON data (>5MB) via an API, in an
+efficient manner?
+
+69. How would you serve a large CSV file (>5MB), in an efficient manner?
