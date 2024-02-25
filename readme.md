@@ -236,3 +236,31 @@ write? Can you justify your use case?
 efficient manner?
 
 69. How would you serve a large CSV file (>5MB), in an efficient manner?
+
+70. How do Django signals compare to database triggers? In which contexts
+would you prefer using triggers over signals?
+
+71. What does `transaction.on_commit` do? Can you give an example use case for
+this functionality?
+
+72. Why is a bad idea to use `functools.lru_cache` on model methods?
+
+73. How would you separate development and production requirements for given
+Django project? (e.g., Python dependencies, settings etc.)
+
+74. How would you adapt Django migrations for a project that went live and 
+never had any migration files to begin with?
+
+75. Django ORM is powerful, but it does not necessarily allow for translating
+every SQL statement. Can you give justified/useful SQL queries that could not
+be performed by only using the ORM?
+
+76. What is your go-to route for documenting your Django project? How do you
+fragment your documentation, i.e., which topics do you include?
+
+77. Which tools do you use for you project to ensure consistent code-style and
+formatting? How do you automate them? Any tools you use that checks for
+Django-specific constructs?
+
+78. In your opinion, what is the worst part of developing a Django
+application?
