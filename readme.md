@@ -266,3 +266,12 @@ would only accept questions that follow the *theme* and are a bit *qualified*.
 
 78. In your opinion, what is the worst part of developing a Django
     application?
+
+79. What does `RunPython` migration operation do and in which cases would it
+    be appropriate to use it?
+
+80. What does `SeparateDatabaseAndState` migration operation do and in which
+    cases would it be appropriate to use it?
+
+81. What does `RunSQL` migration operation do and in which cases would it be
+    appropriate to use it?
